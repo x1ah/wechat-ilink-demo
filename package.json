@@ -1,0 +1,11 @@
+{
+  "name": "wechat-ilink-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.mjs"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0"
+  }
+}
