@@ -50,9 +50,9 @@ iLink 是一套纯 HTTP/JSON 协议，接入域名 `ilinkai.weixin.qq.com`，不
 - 回复必须带 `context_token`，关联到正确的对话窗口
 - **不能主动推送**，必须由用户先发消息触发
 
-### API 端点总览
+### API 总览
 
-| 端点 | 方法 | 用途 | 超时 |
+| Path | 方法 | 用途 | 超时 |
 |------|------|------|------|
 | `ilink/bot/get_bot_qrcode` | GET | 获取登录二维码 | - |
 | `ilink/bot/get_qrcode_status` | GET | 轮询扫码状态 | 35s |
